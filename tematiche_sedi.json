@@ -1,0 +1,268 @@
+{
+  "nodi": [
+    {
+      "nodo": "Aquila",
+      "livello1": [
+        "Electronic System Design"
+      ],
+      "livello2": [
+        "Systems: Electronic System-Level HW/SW Co-Design"
+      ]
+    },
+    {
+      "nodo": "Bari",
+      "livello1": [
+        "Computers and information processing",
+        "Electronic System Design"
+      ],
+      "livello2": [
+        "AI-based decision support systems",
+        "Smart sensors for autonomous system and environmental monitoring"
+      ]
+    },
+    {
+      "nodo": "Benevento",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Communications / architecture and protocols for IoT and edge computing",
+        "Communications / machine (deep) learning applications for IoT"
+      ]
+    },
+    {
+      "nodo": "Bologna",
+      "livello1": [
+        "Industry applications"
+      ],
+      "livello2": [
+        "Communications: architecture and protocols for IoT",
+        "Cloud continuum management",
+        "Network and service along the cloud continuum",
+        "Systems: virtual PLC solutions for intelligent manufacturing systems."
+      ]
+    },
+    {
+      "nodo": "Catania",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Communications: real-time communications for industrial and automotive applications",
+        "Communications: architectures and protocols for IoT/IIoT",
+        "Systems: real-time systems, intelligent manufacturing systems, digital twins"
+      ]
+    },
+    {
+      "nodo": "Firenze",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Systems: Resilient Autonomous Systems"
+      ]
+    },
+    {
+      "nodo": "Messina",
+      "livello1": [
+        "Industry applications"
+      ],
+      "livello2": [
+        "Communications: architectures and protocols for IoT and AI at the edge"
+      ]
+    },
+    {
+      "nodo": "Milano (UNIMI)",
+      "livello1": [
+        "Computers and information processing",
+        "Control systems"
+      ],
+      "livello2": [
+        "Hardware Architecture o HW design: Smart objects that contain senorized boards (position and pressure and wifi communication),",
+        "Software Architecture or SW Design: Log analytics and process mining for embedded systems",
+        "Software Architecture or SW Design: Communication with particular attention to battery saving. Filtering. Software on boar",
+        "Software Architecture or SW Design: Blockchain and smart contracts, Digital Twin",
+        "Software Architecture or SW Design: Hypervisor",
+        "Communications: security protocols for IoT",
+        "Systems: Intelligent manufacturing systems, Production systems, AI-on-the-Edge, Models optimization for applications.",
+        "Systems: Smart objects for interaction (e.g. rehabilitation) e autonomous mobile robots.",
+        "Systems: Autonomous System, Smart Medical Systems, Formal methods for requirements specification, validation, and property verification"
+      ]
+    },
+    {
+      "nodo": "Milano (POLIMI)",
+      "livello1": [
+        "Computers and information processing",
+        "Industry applications",
+        "Electronic System Design"
+      ],
+      "livello2": [
+        "Hardware Architecture o HW design: FPGA-based hardware accelerators for Crypto and AI/ML",
+        "RISC-V implementation and customization",
+        "COTS based systems with microcontrollers and sensors",
+        "DDR4/5 and HBM memory subsystems",
+        "Reliable Hw-Sw systems for avionics",
+        "Power/energy monitoring and management of hardware and software",
+        "multi-may core prototyped on FPGA or implemented in ASIC",
+        "network on chip",
+        "Software Architecture or SW Design: Real-time operating systems",
+        "drivers",
+        "hypervisors",
+        "real-time and reliable scheduling for mixed criticality",
+        "WCET and pWCET analysis and modeling",
+        "compilers",
+        "approximate computing",
+        "embedded systems security",
+        "resource management in in multi core systems",
+        "digital twins",
+        "Communications: protocols for IoT",
+        "cloud-edge computing",
+        "Kubernetes",
+        "post-quantum cryptography",
+        "Systems: Avionics and aerospace",
+        "monitoring systems",
+        "automotive and urban mobility"
+      ]
+    },
+    {
+      "nodo": "Modena",
+      "livello1": [
+        "Industry applications"
+      ],
+      "livello2": [
+        "Systems: Autonomous Vehicles (land, air, water, racing), ADAS, industrial embedded systems"
+      ]
+    },
+    {
+      "nodo": "Napoli (FEDERICO II)",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Hardware Architecture: FPGA-based computer systems,",
+        "Software Architecture or SW Design: Real-time kernels, Hypervisors"
+      ]
+    },
+    {
+      "nodo": "Napoli (uniparthenope)",
+      "livello1": [
+        "Industry applications"
+      ],
+      "livello2": [
+        "Systems: Flexible Manufacturing Systems"
+      ]
+    },
+    {
+      "nodo": "Padova",
+      "livello1": [
+        "Control systems"
+      ],
+      "livello2": [
+        "Software architecture: real-time kernels, run-time infrastructures."
+      ]
+    },
+    {
+      "nodo": "Parma",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Software Architecture or SW Design: Software verification, Static analysis"
+      ]
+    },
+    {
+      "nodo": "Pavia",
+      "livello1": [
+        "Computers and information processing",
+        "Electronic System Design"
+      ],
+      "livello2": [
+        "FPGA based instrumentation and accelerators, IoT architectures, Digital Twins, Building automation"
+      ]
+    },
+    {
+      "nodo": "Pisa",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Software Architecture or SW Design: Real-time software for heterogeneous computing platforms"
+      ]
+    },
+    {
+      "nodo": "Pisa",
+      "livello1": [
+        "Computers and information processing",
+        "Industry applications"
+      ],
+      "livello2": [
+        "Systems: Human-Centric Systems, Progettazione di strumenti biomedicali"
+      ]
+    },
+    {
+      "nodo": "Roma",
+      "livello1": [
+        "Control systems"
+      ],
+      "livello2": [
+        "Systems: Intelligent Systems and Digital Twins"
+      ]
+    },
+    {
+      "nodo": "Salerno",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Software Architecture or SW Design / Software Engineering for AI and with AI",
+        "Communications / Architecture and protocols for IoT"
+      ]
+    },
+    {
+      "nodo": "Siena",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Hardware Architecture o HW design:  Computer Architecture, Edge-Computing, FPGA-based Hardware accelerators, Compute Continuum, RISC-V, Embedded Intelligence, System Design, Human-Computer Interaction, low-power, embedded system security and safety."
+      ]
+    },
+    {
+      "nodo": "Torino",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Software Design: Aggregate Programming,",
+        "Operating Systems: Scheduling"
+      ]
+    },
+    {
+      "nodo": "Torino",
+      "livello1": [
+        "Electronic System Design"
+      ],
+      "livello2": [
+        "Hardware Architecture o HW design: Reliable and safety-critical systems."
+      ]
+    },
+    {
+      "nodo": "Trento",
+      "livello1": [
+        "control systems"
+      ],
+      "livello2": [
+        "Real--time software architectures for robotics"
+      ]
+    },
+    {
+      "nodo": "Verona",
+      "livello1": [
+        "Computers and information processing"
+      ],
+      "livello2": [
+        "Systems: Intelligent manufacturing systems, Digital Twin"
+      ]
+    }
+  ]
+}

@@ -36,7 +36,7 @@ def geocode_city(city_name, access_token):
     return None, None
 
 # Mapbox Access Token
-access_token = 'pk.eyJ1IjoidGFuYTA0MCIsImEiOiJjbTk3aTQwdWEwODBmMmlwbDRmcG9kcnI4In0.FY7cx-b4s0uYN8TpfECmLA'
+access_token = ''
 
 # Initialize the Streamlit app
 st.title("Geographical Distribution of Topics")

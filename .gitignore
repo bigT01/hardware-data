@@ -2,7 +2,7 @@
 *.pyo
 __pycache__/
 
-venv/
+myenv/
 .env/
 
 .vscode/

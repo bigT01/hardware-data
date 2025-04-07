@@ -24,7 +24,6 @@ for node in nodes:
         liv2_counts[l2] += 1
 
 
-
 def geocode_city(city_name, access_token):
     base_url = "https://api.mapbox.com/geocoding/v5/mapbox.places"
     response = requests.get(f"{base_url}/{city_name}.json?access_token={access_token}")
@@ -35,16 +34,12 @@ def geocode_city(city_name, access_token):
             return latitude, longitude
     return None, None
 
-# Mapbox Access Token
-access_token = ''
+access_token = '#'
 
-# Initialize the Streamlit app
 st.title("Geographical Distribution of Topics")
 
-# Create a Folium map centered around Italy
 m = folium.Map(location=[41.8719, 12.5674], zoom_start=6)
 
-# Geocode each city and add markers to the map
 for node in data['nodi']:
     city = node['nodo']
     livello1 = ", ".join(node.get('livello1', []))
@@ -57,15 +52,12 @@ for node in data['nodi']:
             icon=folium.Icon(color='blue', icon='info-sign')
         ).add_to(m)
 
-# Display the map in the Streamlit app
 st_folium(m, width=700, height=500)
 
 fig1, ax1 = plt.subplots()
 ax1.bar(liv1_counts.keys(), liv1_counts.values())
 ax1.set_title("Distribuzione delle macro-categorie (livello1)")
 
-# Rotate the x-axis labels for better readability
 plt.xticks(rotation=90)
 
-# Display the plot in Streamlit
 st.pyplot(fig1)
